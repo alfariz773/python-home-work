@@ -32,8 +32,7 @@ dit = {
 print("the number of each students are:")
 for course, count in dit.items():
     print(f"{course}: {count} students")
-    
-    
+      
 #  Dictionary comprehension to add Fullstack course   
 fullstack = {**dit, "Fullstack": dit["Frontend"] + dit["Backend"]}
 print("\nCourse dictionary with Fullstack included:")
