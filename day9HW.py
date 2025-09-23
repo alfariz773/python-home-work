@@ -27,7 +27,7 @@ print(f"Account Holder: {acc1._name}, Balance: {acc1._balance}, Interest: {acc1.
 print(f"Account Holder: {acc2._name}, Balance: {acc2._balance}, Interest: {acc2.calculate()}")
 
 
-print(f"total balance (ravi + anjali): {acc1 + acc2} ")
+print(f"total balance: {acc1 + acc2} ")
            
         
         
