@@ -1,8 +1,5 @@
 from abc import ABC, abstractmethod
 
-
-
-
 class user(ABC):
     def __init__(self,name,joinedyear):
         self.name=name
