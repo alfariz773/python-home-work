@@ -39,6 +39,7 @@ print(adminuser)
 print(guestuser.get_role())
 print(guestuser.accountage())
 print(guestuser)
+print(globals())
         
         
         

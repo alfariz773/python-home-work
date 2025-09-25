@@ -15,6 +15,7 @@ print(add_more())
 # Step 4: Display each item nicely using lambda
 item = lambda x : print("item in stock",x)
 for x in inventory:
+    
     item(x) 
 # Step 5: Recursive function to count total items    
 def total_stock(inventory,i=0):
