@@ -18,5 +18,6 @@ print("JSON Output:\n", records_json)
 parsed_records = json.loads(records_json)
 
 print("\nParsed Records:")
-for rec in parsed_records:
+for rec in parsed_records:  
     print(rec)
+ 
